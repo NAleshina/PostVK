@@ -1,4 +1,4 @@
-package ru.netology.domain;
+package domain;
 
 public class PostSource {
     private String type;

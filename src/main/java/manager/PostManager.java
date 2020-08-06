@@ -1,6 +1,6 @@
-package ru.netology.manager;
+package manager;
 
-import ru.netology.domain.Post;
+import domain.Post;
 
 public class PostManager {
     private Post[] posts;
