@@ -2,7 +2,7 @@ package domain.attachment;
 
 public class PreviewAudioMassage {
     private int duration;
-    private Waveform waveforms;
+    private int[] waveforms;
     private String linkOgg;
     private String linkMp3;
 
@@ -30,11 +30,11 @@ public class PreviewAudioMassage {
         this.linkMp3 = linkMp3;
     }
 
-    public Waveform getWaveforms() {
+    public int[] getWaveforms() {
         return waveforms;
     }
 
-    public void setWaveforms(Waveform waveforms) {
+    public void setWaveforms(int[] waveforms) {
         this.waveforms = waveforms;
     }
 }

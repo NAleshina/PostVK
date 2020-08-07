@@ -1,12 +1,11 @@
 package domain.attachment;
 
 public class AnswersInfo {
-    private AnswersInfo[] answersInfos;
-    public AnswersInfo[] answers(int id, String text, int votes, int numberRate){
+    private AnswersObject[] answers;
+    public AnswersObject[] answers(){
         // TODO: add logic
         return null;
     }
-
 }
 
 

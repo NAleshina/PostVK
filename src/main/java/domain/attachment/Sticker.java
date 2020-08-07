@@ -3,8 +3,8 @@ package domain.attachment;
 public class Sticker {
     private int productId;
     private int stickerId;
-    private ImagesInfo2 imagesInfo2;
-    private ImagesWithBackground imagesWithBackground;
+    private Image[] images;
+    private ImagesWithBackground[] imagesWithBackground;
 
     public int getProductId() {
         return productId;
@@ -22,19 +22,19 @@ public class Sticker {
         this.stickerId = stickerId;
     }
 
-    public ImagesInfo2 getImagesInfo2() {
-        return imagesInfo2;
+    public Image[] getImage() {
+        return images;
     }
 
-    public void setImagesInfo2(ImagesInfo2 imagesInfo2) {
-        this.imagesInfo2 = imagesInfo2;
+    public void setImage(Image[] images) {
+        this.images = images;
     }
 
-    public ImagesWithBackground getImagesWithBackground() {
+    public ImagesWithBackground[] getImagesWithBackground() {
         return imagesWithBackground;
     }
 
-    public void setImagesWithBackground(ImagesWithBackground imagesWithBackground) {
+    public void setImagesWithBackground(ImagesWithBackground[] imagesWithBackground) {
         this.imagesWithBackground = imagesWithBackground;
     }
 }

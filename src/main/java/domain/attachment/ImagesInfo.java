@@ -1,10 +1,40 @@
 package domain.attachment;
 
 public class ImagesInfo {
-    private ImagesInfo[] imagesInfos;
+    private String url;
+    private int width;
+    private int height;
+    private String type;
 
-    public ImagesInfo[] images(String url, int width, int height, String type) {
-        // TODO: add logic
-        return null;
+    public String getUrl() {
+        return url;
+    }
+
+    public void setUrl(String url) {
+        this.url = url;
+    }
+
+    public int getWidth() {
+        return width;
+    }
+
+    public void setWidth(int width) {
+        this.width = width;
+    }
+
+    public int getHeight() {
+        return height;
+    }
+
+    public void setHeight(int height) {
+        this.height = height;
+    }
+
+    public String getType() {
+        return type;
+    }
+
+    public void setType(String type) {
+        this.type = type;
     }
 }

@@ -7,10 +7,8 @@ public class Background {
     private String color;
     private int width;
     private int height;
-
-
-    private ImagesInfo imagesInfo;
-    private PointsInfo pointsInfo;
+    private ImagesInfo[] imagesInfo;
+    private PointsInfo[] pointsInfo;
 
     public int getId() {
         return id;
@@ -59,19 +57,20 @@ public class Background {
     public void setHeight(int height) {
         this.height = height;
     }
-    public ImagesInfo getImagesInfo() {
+
+    public ImagesInfo[] getImagesInfo() {
         return imagesInfo;
     }
 
-    public void setImagesInfo(ImagesInfo imagesInfo) {
+    public void setImagesInfo(ImagesInfo[] imagesInfo) {
         this.imagesInfo = imagesInfo;
     }
 
-    public PointsInfo getPointsInfo() {
+    public PointsInfo[] getPointsInfo() {
         return pointsInfo;
     }
 
-    public void setPointsInfo(PointsInfo pointsInfo) {
+    public void setPointsInfo(PointsInfo[] pointsInfo) {
         this.pointsInfo = pointsInfo;
     }
 }

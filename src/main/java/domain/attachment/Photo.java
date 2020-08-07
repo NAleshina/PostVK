@@ -7,7 +7,7 @@ public class Photo {
     private int userId;
     private String text;
     private int date;
-    private SizesPhoto sizesPhoto;
+    private ImagesInfo[] sizes;
     private int width;
     private int height;
 
@@ -59,12 +59,12 @@ public class Photo {
         this.date = date;
     }
 
-    public SizesPhoto getSizesPhoto() {
-        return sizesPhoto;
+    public ImagesInfo[] getSizes() {
+        return sizes;
     }
 
-    public void setSizesPhoto(SizesPhoto sizesPhoto) {
-        this.sizesPhoto = sizesPhoto;
+    public void setSizes(ImagesInfo[] sizes) {
+        this.sizes = sizes;
     }
 
     public int getWidth() {

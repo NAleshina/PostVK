@@ -1,9 +1,9 @@
 package domain.attachment;
 
 public class AnswerIdsInfo {
-    private AnswerIdsInfo[] answerIdsInfos;
+    private int[] answerIdsInfos;
 
-    public int[] array() {
+    public int[] getAnswerIdsInfos() {
         // TODO: add logic
         return null;
     }

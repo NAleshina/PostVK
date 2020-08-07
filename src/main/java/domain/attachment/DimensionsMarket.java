@@ -3,7 +3,7 @@ package domain.attachment;
 public class DimensionsMarket {
     private int width;
     private int height;
-    private int lenght;
+    private int length;
 
     public int getWidth() {
         return width;
@@ -21,11 +21,11 @@ public class DimensionsMarket {
         this.height = height;
     }
 
-    public int getLenght() {
-        return lenght;
+    public int getLength() {
+        return length;
     }
 
-    public void setLenght(int lenght) {
-        this.lenght = lenght;
+    public void setLength(int length) {
+        this.length = length;
     }
 }

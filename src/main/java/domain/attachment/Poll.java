@@ -20,7 +20,7 @@ public class Poll {
     private int authorId;
     private Photo photo;
     private Background background;
-    private FriendsInfo friendsInfo;
+    private int[] friendsInfo;
 
     public int getId() {
         return id;
@@ -173,11 +173,11 @@ public class Poll {
         this.answerIdsInfo = answerIdsInfo;
     }
 
-    public FriendsInfo getFriendsInfo() {
+    public int[] getFriendsInfo() {
         return friendsInfo;
     }
 
-    public void setFriendsInfo(FriendsInfo friendsInfo) {
+    public void setFriendsInfo(int[] friendsInfo) {
         this.friendsInfo = friendsInfo;
     }
 }

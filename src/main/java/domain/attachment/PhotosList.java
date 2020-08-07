@@ -1,8 +1,8 @@
 package domain.attachment;
 
 public class PhotosList {
-    private PhotosList[] photosLists;
-    public String[] array(){
+    private String[] photosLists;
+    public String[] getPhotosLists(){
         // TODO: add logic
         return null;
     }
