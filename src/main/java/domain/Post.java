@@ -3,7 +3,6 @@ package domain;
 public class Post {
     private int id;
     private int timePost;
-    private Menu menu;
     private String textPost;
     private String picturePostUrl;
     private String link;
@@ -45,14 +44,6 @@ public class Post {
 
     public void setTimePost(int timePost) {
         this.timePost = timePost;
-    }
-
-    public Menu getMenu() {
-        return menu;
-    }
-
-    public void setMenu(Menu menu) {
-        this.menu = menu;
     }
 
     public String getTextPost() {

@@ -5,8 +5,6 @@ public class CommentsInfo {
     private boolean canPost;
     private String answer;
     private LikesInfo likesInfo;
-    private SortComment sortComment;
-
     private int groupsCanPost;
     private boolean canClose;
     private boolean canOpen;
@@ -41,14 +39,6 @@ public class CommentsInfo {
 
     public void setLikesInfo(LikesInfo likesInfo) {
         this.likesInfo = likesInfo;
-    }
-
-    public SortComment getSortComment() {
-        return sortComment;
-    }
-
-    public void setSortComment(SortComment sortComment) {
-        this.sortComment = sortComment;
     }
 
     public int getGroupsCanPost() {

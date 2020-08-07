@@ -5,7 +5,6 @@ public class RepostsInfo {
     private String iconRepostUrl;
     private boolean tapRepost;
     private int userReposted;
-    private MenuRepost menuRepost;
 
     public int getCount() {
         return count;
@@ -38,12 +37,5 @@ public class RepostsInfo {
     public void setUserReposted(int userReposted) {
         this.userReposted = userReposted;
     }
-
-    public MenuRepost getMenuRepost() {
-        return menuRepost;
-    }
-
-    public void setMenuRepost(MenuRepost menuRepost) {
-        this.menuRepost = menuRepost;
-    }
 }
+
